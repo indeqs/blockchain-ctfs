@@ -6,8 +6,18 @@ import {SharesBuyer} from "./SB.sol";
 import {Setup} from "./Setup.sol";
 
 contract Exploit {
-    // requires the balance of ChallengeContract(TARGET) and SharesBuyer(SB) to be 0
-    // ticket = 187558514181
+    /**
+     * UUID:           86095d87-5b91-44ea-b99e-de7e11f32e2e
+     * RPC-Endpoint:   http://78.47.52.31:14352/86095d87-5b91-44ea-b99e-de7e11f32e2e
+     * Private key:    0x0b6a545253471884b77e00387768dc7b644779fea7caec9d9824eaae7cbcb994
+     * Account address:0xda9b2b9ede96bfd09428d7f39baf0444b8cae6cb
+     * Setup contract: 0xD2075a350cd197e9C449Dfc9BC49ff102bDf7e6D
+     *
+     *
+     * requires the balance of ChallengeContract(TARGET) and SharesBuyer(SB) to be 0
+     * ticket = 187558514181
+     */
+
     /**
      * @notice THE PLAN
      * Create an exploit contract that frontruns SB.sol's call to depositEth
